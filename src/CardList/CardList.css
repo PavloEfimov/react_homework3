@@ -1,0 +1,34 @@
+.cardsBlock {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex: 0 0 62%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.Cards__img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover
+}
+
+.Cards__rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 35%;
+    background-color: gold;
+    width: 50px;
+    height: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+.Cards {
+    padding: 8px;
+}

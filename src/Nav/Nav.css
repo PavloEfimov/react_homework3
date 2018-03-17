@@ -1,0 +1,15 @@
+.Nav {
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+li {
+    margin-left: 20px;
+    font-size: 20px;
+    color: brown;
+}

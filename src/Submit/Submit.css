@@ -1,0 +1,42 @@
+.Submit {
+    flex: 0 0 35%;
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.Title {
+    width: 100%;
+    display: block;
+}
+
+.Description {
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.SubmitForm {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+select {
+    width: 100%;
+}
+
+.submit {
+    margin-top: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.chips {
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.mainBlock {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: flex-start;
+}
+
+.App__sidebar {
+    background-color: gold;
+    width: 250px;
+}
+
+.Buttons {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.Buttons>button {
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-top: 20px;
+}

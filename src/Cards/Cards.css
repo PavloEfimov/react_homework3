@@ -1,0 +1,56 @@
+.Cards {
+    width: 250px;
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.button {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: orange;
+}
+
+.Cards__rating {
+    margin-bottom: 30px;
+}
+
+.Cards__text {
+    height: 150px;
+}
+
+.Cards__chips {
+    list-style: none;
+    display: inline-block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: -50px;
+}
+
+.Cards__chips__item {
+    background-color: blue;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.MovieCard__btn {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-weight: 700;
+    height: 35px;
+    font-size: 24px;
+    line-height: 35px;
+    border-radius: 4px;
+    background-color: gold;
+}
